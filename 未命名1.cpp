@@ -12,13 +12,19 @@ int main()
 	int max(int a,int b);  //最大公约数函数声明
 	int min(int a,int b);  //最小公倍数函数声明
 	FILE *fp;
-    int sum,i,swit,total,total2,style,u=1,g;
-	char name[20],str[100];
+    int sum,i,swit,total,total2,style,u=1,g,p,q;
+	char name[50],str[100],name2[5];
 	srand((unsigned int)time(NULL)); //设置随机数种子 
 	printf("Welcome to the program of operation practice!\n");
 	printf("******************************************************************************\n");
 	printf("Input the language you use:\nChinese   English   Japanese   German   French\n");
 	scanf("%s",&name);  //语言切换
+	p=strlen(name);
+	name[p]='.';
+	name[p+1]='t';
+	name[p+2]='x';
+	name[p+3]='t';
+	name[p+4]='\0';       //帮助用户输入.txt部分 
 	if((fp=fopen(name,"r"))==NULL)       //调用文件
 	{
 		printf("Wrong!");
@@ -37,8 +43,8 @@ int main()
 		 lan[u][g-1]='\0';
 	 }
 	 scanf("%d",&style);
-	printf("%s",lan[6]);
-    scanf("%d",&sum);
+	 printf("%s",lan[6]);
+    	scanf("%d",&sum);
 	for(i=1;i<=sum;)
 	{
 		total=i-1;
@@ -154,7 +160,7 @@ void zero()
     		    if(test==input)
 				{
  	    			rig++;
-			    		printf("%s",lan[7]);
+			    		printf("%s\n",lan[7]);
 				}
     		    else
 				{
@@ -229,7 +235,7 @@ void fraction()
 			    if(input1==(zi3/mu3))
 				{
 					rig++;
-						printf("%s",lan[7]);
+						printf("%s\n",lan[7]);
 				}
 			    else
 				{
@@ -248,7 +254,7 @@ void fraction()
 			    if(input1==zi3&&input2==mu3)
 				{
 					rig++;
-						printf("%s",lan[7]);
+						printf("%s\n",lan[7]);
 				}
 			    else
 				{
@@ -284,7 +290,7 @@ void fraction()
 			   if(input1==(zi3/mu3))
 			   {
 					rig++;
-						printf("%s",lan[7]);
+						printf("%s\n",lan[7]);
 			   }
 			    else
 				{
@@ -303,7 +309,7 @@ void fraction()
 		    	if(input1==zi3&&input2==mu3)
 				{
 					rig++;
-						printf("%s",lan[7]);
+						printf("%s\n",lan[7]);
 				}
 		    	else
 				{
@@ -332,7 +338,7 @@ void fraction()
 	    		if(input1==(zi3/mu3))
 				{
 					rig++;
-						printf("%s",lan[7]);
+						printf("%s\n",lan[7]);
 				}
 		    	else
 				{
@@ -351,7 +357,7 @@ void fraction()
 			    if(input1==zi3&&input2==mu3)
 				{
 					rig++;
-						printf("%s",lan[7]);
+						printf("%s\n",lan[7]);
 				}
     	    	else
 				{
@@ -379,7 +385,7 @@ void fraction()
 	    		if(input1==(zi3/mu3))
 				{
 					rig++;
-						printf("%s",lan[7]);
+						printf("%s\n",lan[7]);
 				}
 		    	else
 				{
@@ -398,7 +404,7 @@ void fraction()
 			    if(input1==zi3&&input2==mu3)
 				{
 					rig++;
-						printf("%s",lan[7]);
+						printf("%s\n",lan[7]);
 				}
     	    	else
 				{
@@ -525,7 +531,7 @@ void kuohao1(float big,float arr[5],char sig[4])
 		    if(test==input)
 			{
 				rig++;
-					printf("%s",lan[7]);
+					printf("%s\n",lan[7]);
 			}
 		    else
 			{
@@ -559,7 +565,7 @@ void kuohao2(float big,float arr[5],char sig[4])
 		    if(test==input)
 			{
 				rig++;
-					printf("%s",lan[7]);
+					printf("%s\n",lan[7]);
 			}
 		    else
 			{
@@ -593,7 +599,7 @@ void kuohao3(float big,float arr[5],char sig[4])
 		    if(test==input)
 			{
 				rig++;
-					printf("%s",lan[7]);
+					printf("%s\n",lan[7]);
 			}
 		    else
 			{
@@ -654,7 +660,7 @@ void kuohao4(float arr[5],char sig[4])
 			if(test==input)
 			{
 				rig++;
-					printf("%s",lan[7]);
+					printf("%s\n",lan[7]);
 			}
 		    else
 			{
@@ -724,7 +730,7 @@ void kuohao5(float arr[5],char sig[4])
 		    if(test==input)
 			{
 				rig++;
-					printf("%s",lan[7]);
+					printf("%s\n",lan[7]);
 			}
 		    else
 			{
