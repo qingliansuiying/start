@@ -1,0 +1,12 @@
+Beschreibung: 1.Die berechnung der ANZAHL DER antworten, geben sie bitte einfachste form;
+              2. Wenn Sie auf halbem Weg um den Vorgang zu stoppen, geben Sie "e";
+              3. Das Programm langsamer l?uft, bitte etwas Geduld.
+Bitte w?hlen Sie die Art der Berechnung, die Sie wollen
+1. integer Berechnungen        2.Score-Berechnung      3. Die obigen Zwei Score-Berechnung
+Bitte geben Sie die Anzahl der Themen, die Sie brauchen:   
+Die Antwort ist richtig!
+Falsche Antwort, die richtige Antwort:   
+Sie haben f¨¹r die Gesamtzahl der Fragen gemacht:
+Ihre Anzahl der richtigen Frage ist:   
+Ihre Frage ist die Anzahl der Fehler:   
+Willkommen wieder!

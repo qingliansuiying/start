@@ -1,0 +1,12 @@
+Description: 1. In the calculation of scores, please enter the simplest form of the answer.
+             2. If you want to stop the program halfway, enter "e";
+             3. The program is running slowly, please be patient.
+Please choose the type of calculation you want
+1. Integer calculation       2. Score calculation       3. both
+Please enter the number of questions you need:
+Correct!
+Wrong, the correct answer is  
+You have done the total number of questions:  
+Your correct question number is:  
+The number of your mistakes is:  
+Welcome to use again!  
