@@ -1,0 +1,12 @@
+Description: 1.S'il vous pla?t, la forme la plus simple des r¨¦ponses entr¨¦es
+             2. Si vous voulez arr¨ºter la proc¨¦dure en cours, entrez "e";
+             3. Le programme se d¨¦roule plus lentement, s'il vous pla?t soyez patient.
+S'il vous pla?t s¨¦lectionner le type de calcul que vous voulez
+1. entiers calculs    2.calcul du Score    3. Les deux ci-dessus calcul-score
+S'il vous pla?t entrez le nombre de sujets dont vous avez besoin:   
+La r¨¦ponse est correcte!
+Mauvaise r¨¦ponse, la bonne r¨¦ponse est:   
+Vous avez fait pour le nombre total de questions:   
+Votre num¨¦ro de bonne question est:   
+Votre question est le nombre d'erreurs:   
+Bienvenue ¨¤ nouveau!
